@@ -28,3 +28,20 @@ var titleAndPrice = gbpCode.map.call(gbpCode,function(x){
   return (x.title + " $" + x.price);
 });
 console.log(titleAndPrice)
+
+//question 4
+var itemMaterials = items.forEach(function(item){
+    item.materials.forEach(function(x){
+      if(x ==="wood"){
+      console.log(item.title);
+      }
+    })
+});
+// question 5
+
+var materialNum = items.forEach(function(item){
+    var materialArray = item.material
+    if(materialArray.length > 7){
+      console.log(item.title);
+    }
+})
