@@ -10,7 +10,7 @@ var total = prices.reduce(function(a, b){
 });
 
 var averagePrice = parseInt(total / prices.length)
-console.log("The average price is " + averagePrice);
+console.log("The average price is $" + (averagePrice.toFixed(2)));
 
 //question 2
 console.log("question 2")
