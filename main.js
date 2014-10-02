@@ -15,7 +15,7 @@ console.log("The average price is $" + (averagePrice.toFixed(2)));
 //question 2
 console.log("question 2")
 var between = items.filter(function(item){
-    if(item.price > 13.99 && item.price < 18.01) && item.currency_code =="usd"{
+    if(item.price > 13.99 && item.price < 18.01 && item.currency_code =="usd"){
       console.log(item.title)
     }
 });
